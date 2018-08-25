@@ -18,31 +18,61 @@
 
   </head>
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="{{ site.github.repository_url }}">View On GitHub</a></li>
-          {% if site.show_downloads %}
-            <li class="downloads"><a href="{{ site.github.zip_url }}">ZIP</a></li>
-            <li class="downloads"><a href="{{ site.github.tar_url }}">TAR</a></li>
-            <li class="title">DOWNLOADS</li>
-          {% endif %}
-        </nav>
-      </div><!-- end header -->
 
     <div class="wrapper">
 
+      <header>
+        <center>
+          <em>
+            Want code, not words?
+            <a href="{{ site.github.repository_url }}">Head over to GitHub</a>
+          </em>
+        </center>
+        <hr />
+      </header>
+
       <section>
-        <div id="title">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
-
         {{ content }}
-
       </section>
+
+      <footer>
+        <hr />
+        <p>
+          Jeo lives on <a href="{{ site.github.repository_url }}">GitHub</a>
+          and is maintained by <a href="https://www.joecridge.me/">Joe Cridge</a>
+        </p>
+
+        <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+          <a rel="license"
+            href="http://creativecommons.org/publicdomain/zero/1.0/">
+            <img src="/images/cc0.png" style="border-style: none;" alt="CC0" />
+          </a>
+          <br />
+          To the extent possible under law,
+          <a rel="dct:publisher"
+            href="https://jeolayout.org/">
+            <span property="dct:title">Joe Cridge</span></a>
+          has waived all copyright and related or neighboring rights to
+          <span property="dct:title">The Jeo Keyboard Layout</span>.
+        This work is published from:
+        <span property="vcard:Country" datatype="dct:ISO3166"
+              content="GB" about="https://jeolayout.org/">
+          United Kingdom</span>.
+        </p>
+
+        <p>
+          This site is hosted on GitHub Pages and served via Cloudflare.
+          I don&rsquo;t track you, but they might. Have a look at their privacy policies:
+          <a href="https://help.github.com/articles/github-privacy-statement/">GitHub</a> &middot;
+          <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare</a>
+        </p>
+
+        <p>
+          This site runs on <a href="https://jekyllrb.com/">Jekyll</a> using the
+          <a href="https://github.com/mattgraham/midnight">Midnight theme</a> by
+          <a href="https://twitter.com/michigangraham">Matt Graham</a>
+        </p>
+      </footer>
 
     </div>
 

@@ -2,3 +2,18 @@
 ---
 
 @import "{{ site.theme }}";
+
+header {
+  margin-top: 20px;
+}
+
+hr {
+  margin-top: 20px;
+}
+
+section {
+  margin-top: 20px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  margin-bottom: 10px;
+}

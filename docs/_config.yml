@@ -1,1 +1,10 @@
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/iso.png
+description: >
+  Jeo is a keyboard layout which is optimised for software development.
+lang: en_GB
 theme: jekyll-theme-midnight
+title: The Jeo Keyboard Layout
