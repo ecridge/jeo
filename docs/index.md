@@ -7,4 +7,4 @@ title: About
 Jeo is a keyboard layout which is optimised for software development.  It looks
 like this:
 
-![The Jeo Keyboard Layout](images/iso.png)
+![The Jeo Keyboard Layout](/images/iso-desktop.png)

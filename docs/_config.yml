@@ -2,7 +2,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /images/iso.png
+      image: /images/iso-desktop.png
 description: >
   Jeo is a keyboard layout which is optimised for software development.
 lang: en_GB
