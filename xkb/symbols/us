@@ -1,0 +1,24 @@
+// Describe the differences between the UK Jeo layout
+// and a US variant. By Joe Cridge (joe.cridge@me.com)
+
+partial alphanumeric_keys
+xkb_symbols "jeo" {
+    include "gb(jeo)"
+
+    name[Group1]= "English (US, Jeo)";
+
+    key <LWIN> { [        Multi_key ] };
+};
+
+partial alphanumeric_keys
+xkb_symbols "jeo-mac" {
+    include "gb(jeo)"
+
+    name[Group1]= "English (US, Jeo, Macintosh)";
+
+    key <LALT> { [        Multi_key ] };
+    key <LWIN> { [          Super_L ] };
+
+    key <RWIN> { [          Super_R ] };
+    key <RALT> { [            Alt_R ] };
+};
