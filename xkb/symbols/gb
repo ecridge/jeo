@@ -1,0 +1,76 @@
+partial
+xkb_symbols "jeo" {
+
+    include "gb"
+
+    name[Group1] = "English (UK, Jeo)";
+
+    key <TLDE> { [         CapsLock ] };
+
+    //                             Base                 Shift                Symbol            Nav
+
+    key <AE01> { [                    1,                    1,              section,            F1 ] };
+    key <AE02> { [                    2,                    2,                   at,            F2 ] };
+    key <AE03> { [                    3,                    3,             sterling,            F3 ] };
+    key <AE04> { [                    4,                    4,             EuroSign,            F4 ] };
+    key <AE05> { [                    5,                    5,            copyright,            F5 ] };
+    key <AE06> { [                    6,                    6,           registered,            F6 ] };
+    key <AE07> { [                    7,                    7,  leftsinglequotemark,            F7 ] };
+    key <AE08> { [                    8,                    8, rightsinglequotemark,            F8 ] };
+    key <AE09> { [                    9,                    9,  leftdoublequotemark,            F9 ] };
+    key <AE10> { [                    0,                    0, rightdoublequotemark,           F10 ] };
+    key <AE11> { [ XF86AudioLowerVolume, XF86AudioLowerVolume,        XF86AudioPrev, XF86AudioPrev ] };
+
+    key <BKSP> { [        XF86AudioPlay,        XF86AudioPlay,        XF86AudioMute, XF86AudioMute ] };
+
+    key <AD01> { [                     q,                   Q,             ellipsis,       Page_Up ] };
+    key <AD02> { [                     g,                   G,           underscore,     BackSpace ] };
+    key <AD03> { [                     m,                   M,          bracketleft,            Up ] };
+    key <AD04> { [                     l,                   L,         bracketright,        Delete ] };
+    key <AD05> { [                     w,                   W,          asciicircum,     Page_Down ] };
+    key <AD06> { [                     y,                   Y,               exclam,           Tab ] };
+    key <AD07> { [                     f,                   F,                 less,             7 ] };
+    key <AD08> { [                     u,                   U,                 more,             8 ] };
+    key <AD09> { [                     b,                   B,                equal,             9 ] };
+    key <AD10> { [                 minus,          underscore,            ampersand,         minus ] };
+
+    key <AD11> { [        BackSpace ] };
+    key <AD12> { [           Escape ] };
+
+    key <CAPS> { [ ISO_Level3_Shift ] };
+
+    key <AC01> { [                     d,                   D,            backslash,          Home ] };
+    key <AC02> { [                     s,                   S,                slash,          Left ] };
+    key <AC03> { [                     t,                   T,                slash,          Down ] };
+    key <AC04> { [                     n,                   N,            braceleft,         Right ] };
+    key <AC05> { [                     r,                   R,           braceright,           End ] };
+    key <AC06> { [                     i,                   I,             asterisk,      asterisk ] };
+    key <AC07> { [                     a,                   A,             question,             4 ] };
+    key <AC08> { [                     e,                   E,            parenleft,             5 ] };
+    key <AC09> { [                     o,                   O,           parenright,             6 ] };
+    key <AC10> { [                     h,                   H,                colon,         slash ] };
+
+    key <AC11> { [ ISO_Level3_Shift ] };
+    key <BKSL> { [           Return ] };
+    key <LSGT> { [        Multi_key ] };
+
+    key <AB01> { [                     z,                   Z,           numbersign,           F11 ] };
+    key <AB02> { [                     x,                   X,               dollar,           F12 ] };
+    key <AB03> { [                     c,                   C,                  bar,           F13 ] };
+    key <AB04> { [                     v,                   V,           asciitilde,           F14 ] };
+    key <AB05> { [                     j,                   J,                grave,           F15 ] };
+    key <AB06> { [                     k,                   K,                 plus,          plus ] };
+    key <AB07> { [                     p,                   P,              percent,             1 ] };
+    key <AB08> { [                 comma,              endash,             quotedbl,             2 ] };
+    key <AB09> { [                period,      periodcentered,           apostrophe,             3 ] };
+    key <AB10> { [                 slash,            question,            semicolon,        period ] };
+
+    key <LWIN> { [          Super_L ] };
+    key <LALT> { [            Alt_L ] };
+
+    key <SPCE> { [                 space,               space,                space,             0 ] };
+
+    key <RALT> { [            Alt_R ] };
+    key <RWIN> { [          Super_R ] };
+    key <MENU> { [        Multi_key ] };
+};
