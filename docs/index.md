@@ -125,8 +125,8 @@ office).
 
 As you may have noticed, the image at the top of this page is of an ISO
 keyboard.  Jeo works with ANSI too (through you may wish to sacrifice your left
-Super for the Nav key), and I am sure it can be equally-well adapted to
-whatever fancy split Topre ortholinear keyboard you have sitting in front of
+Alt for the Nav key), and I am sure it can be equally-well adapted to whatever
+fancy split Topre ortholinear keyboard you have sitting in front of
 you.[^endgame]  Here’s a little inspiration:
 
 ### ANSI desktop
