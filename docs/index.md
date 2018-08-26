@@ -4,6 +4,8 @@ title: About
 ---
 # The Jeo Keyboard Layout
 
+_Aug 25, 2018 &nbsp;&middot; 7 min read_
+
 Jeo is a keyboard layout which is optimised for software development.  It looks
 like this:
 
