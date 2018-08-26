@@ -36,10 +36,10 @@ I wholeheartedly recommend that you start using it too.
 
 By virtue of the fact that you’re reading this, I’m going to assume that you’ve
 already ditched QWERTY and embarked on an alternative layout pilgrimage.  Maybe
-you’re a Dvorak user (cute), or a Colemak fan (somewhat respectable, save for
-the fact that you can’t type ‘the’ without wincing), but either way you
-understand that there are more important factors in key arrangement than making
-it so that you can spell ‘typewriter’ using only the top row.
+you’re a Dvorak user (cute), or a Colemak fan (respectable, save for the fact
+that you can’t type ‘The’ without wincing), but either way you understand that
+there are more important factors in key arrangement than making it so that you
+can spell ‘typewriter’ using only the top row.
 
 Obviously, claiming that QWERTY is worse for the world than the US remake of
 [Skins][] would be hollow without some data to back it up.  Fortunately,
@@ -51,7 +51,8 @@ a read if you have time; here are the headline results if you don’t:
 
 Jeo uses Krzywinski’s QGMLWY letter mask, which is [fully optimised][] for
 typing in English, and happens to keep some common shortcut keys (ZXCV) in
-their familiar locations.
+their familiar locations.  By switching from QWERTY to Jeo, you cut the work
+your fingers have to do near enough _in half_.
 
 [Martin Krzywinski]: http://mkweb.bcgsc.ca/
 [Skins]: https://en.m.wikipedia.org/wiki/Skins_(UK_TV_series)
