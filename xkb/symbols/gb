@@ -21,6 +21,7 @@ xkb_symbols "jeo" {
     key <AE09> { [                    9,                    9,  leftdoublequotemark,            F9 ] };
     key <AE10> { [                    0,                    0, rightdoublequotemark,           F10 ] };
     key <AE11> { [ XF86AudioLowerVolume, XF86AudioLowerVolume,        XF86AudioPrev, XF86AudioPrev ] };
+    key <AE12> { [ XF86AudioRaiseVolume, XF86RaiseLowerVolume,        XF86AudioNext, XF86AudioNext ] };
 
     key <BKSP> { [        XF86AudioPlay,        XF86AudioPlay,        XF86AudioMute, XF86AudioMute ] };
 
