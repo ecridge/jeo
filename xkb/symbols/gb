@@ -89,3 +89,23 @@ xkb_symbols "jeo-mac" {
     key <RWIN> { [          Super_R ] };
     key <RALT> { [            Alt_R ] };
 };
+
+partial alphanumeric_keys
+xkb_symbols "jeo-kinesis" {
+    include "gb(jeo)"
+
+    name[Group1]= "English (Jeo, Kinesis Advantage)";
+
+    key <AE12> { [        XF86AudioPlay,        XF86AudioPlay,        XF86AudioMute, XF86AudioMute ] };
+    key <AE11> { [ XF86AudioRaiseVolume, XF86RaiseLowerVolume,        XF86AudioNext, XF86AudioNext ] };
+    key <BKSL> { [ XF86AudioLowerVolume, XF86AudioLowerVolume,        XF86AudioPrev, XF86AudioPrev ] };
+
+    key <TLDE> { [        Multi_key ] };
+    key <LSGT> { [          Super_L ] };
+
+    key <AD11> { [          Super_R ] };
+    key <AD12> { [        Multi_key ] };
+
+    key <BKSP> { [        BackSpace ] };
+    key <DELE> { [           Escape ] };
+}
