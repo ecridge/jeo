@@ -7,7 +7,7 @@ xkb_symbols "jeo" {
 
     name[Group1]= "English (US, Jeo)";
 
-    key <LWIN> { [        Multi_key ] };
+    key <LWIN> { [ ISO_Fast_Cursor_Left ] };
 };
 
 partial alphanumeric_keys
@@ -16,9 +16,9 @@ xkb_symbols "jeo-mac" {
 
     name[Group1]= "English (US, Jeo, Macintosh)";
 
-    key <LALT> { [        Multi_key ] };
-    key <LWIN> { [          Super_L ] };
+    key <LALT> { [ ISO_Fast_Cursor_Left ] };
+    key <LWIN> { [              Super_L ] };
 
-    key <RWIN> { [          Super_R ] };
-    key <RALT> { [            Alt_R ] };
+    key <RWIN> { [              Super_R ] };
+    key <RALT> { [                Alt_R ] };
 };
