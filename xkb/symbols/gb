@@ -8,73 +8,73 @@ xkb_symbols "jeo" {
 
     name[Group1]= "English (Jeo)";
 
-    key <TLDE> { [         CapsLock ] };
+    replace key <TLDE> { [             CapsLock ] };
 
-    key <AE01> { [                    1,                    1,              section,            F1 ] };
-    key <AE02> { [                    2,                    2,                   at,            F2 ] };
-    key <AE03> { [                    3,                    3,             sterling,            F3 ] };
-    key <AE04> { [                    4,                    4,             EuroSign,            F4 ] };
-    key <AE05> { [                    5,                    5,            copyright,            F5 ] };
-    key <AE06> { [                    6,                    6,           registered,            F6 ] };
-    key <AE07> { [                    7,                    7,  leftsinglequotemark,            F7 ] };
-    key <AE08> { [                    8,                    8, rightsinglequotemark,            F8 ] };
-    key <AE09> { [                    9,                    9,  leftdoublequotemark,            F9 ] };
-    key <AE10> { [                    0,                    0, rightdoublequotemark,           F10 ] };
-    key <AE11> { [ XF86AudioLowerVolume, XF86AudioLowerVolume,        XF86AudioPrev, XF86AudioPrev ] };
-    key <AE12> { [ XF86AudioRaiseVolume, XF86RaiseLowerVolume,        XF86AudioNext, XF86AudioNext ] };
+    replace key <AE01> { [                    1,                    1,              section,            F1 ] };
+    replace key <AE02> { [                    2,                    2,                   at,            F2 ] };
+    replace key <AE03> { [                    3,                    3,             sterling,            F3 ] };
+    replace key <AE04> { [                    4,                    4,             EuroSign,            F4 ] };
+    replace key <AE05> { [                    5,                    5,            copyright,            F5 ] };
+    replace key <AE06> { [                    6,                    6,           registered,            F6 ] };
+    replace key <AE07> { [                    7,                    7,  leftsinglequotemark,            F7 ] };
+    replace key <AE08> { [                    8,                    8, rightsinglequotemark,            F8 ] };
+    replace key <AE09> { [                    9,                    9,  leftdoublequotemark,            F9 ] };
+    replace key <AE10> { [                    0,                    0, rightdoublequotemark,           F10 ] };
+    replace key <AE11> { [ XF86AudioLowerVolume, XF86AudioLowerVolume,        XF86AudioPrev, XF86AudioPrev ] };
+    replace key <AE12> { [ XF86AudioRaiseVolume, XF86RaiseLowerVolume,        XF86AudioNext, XF86AudioNext ] };
 
-    key <BKSP> { [        XF86AudioPlay,        XF86AudioPlay,        XF86AudioMute, XF86AudioMute ] };
+    replace key <BKSP> { [        XF86AudioPlay,        XF86AudioPlay,        XF86AudioMute, XF86AudioMute ] };
 
-    key <AD01> { [                     q,                   Q,             ellipsis,       Page_Up ] };
-    key <AD02> { [                     g,                   G,           underscore,     BackSpace ] };
-    key <AD03> { [                     m,                   M,          bracketleft,            Up ] };
-    key <AD04> { [                     l,                   L,         bracketright,        Delete ] };
-    key <AD05> { [                     w,                   W,          asciicircum,     Page_Down ] };
-    key <AD06> { [                     y,                   Y,               exclam,           Tab ] };
-    key <AD07> { [                     f,                   F,                 less,             7 ] };
-    key <AD08> { [                     u,                   U,                 more,             8 ] };
-    key <AD09> { [                     b,                   B,                equal,             9 ] };
-    key <AD10> { [                 minus,          underscore,            ampersand,         minus ] };
+    replace key <AD01> { [                     q,                   Q,             ellipsis,       Page_Up ] };
+    replace key <AD02> { [                     g,                   G,           underscore,     BackSpace ] };
+    replace key <AD03> { [                     m,                   M,          bracketleft,            Up ] };
+    replace key <AD04> { [                     l,                   L,         bracketright,        Delete ] };
+    replace key <AD05> { [                     w,                   W,          asciicircum,     Page_Down ] };
+    replace key <AD06> { [                     y,                   Y,               exclam,           Tab ] };
+    replace key <AD07> { [                     f,                   F,                 less,             7 ] };
+    replace key <AD08> { [                     u,                   U,                 more,             8 ] };
+    replace key <AD09> { [                     b,                   B,                equal,             9 ] };
+    replace key <AD10> { [                 minus,          underscore,            ampersand,         minus ] };
 
-    key <AD11> { [        BackSpace ] };
-    key <AD12> { [           Escape ] };
+    replace key <AD11> { [            BackSpace ] };
+    replace key <AD12> { [               Escape ] };
 
-    key <CAPS> { [ ISO_Level3_Shift ] };
+    replace key <CAPS> { [ ISO_Level3_Shift ] };
 
-    key <AC01> { [                     d,                   D,            backslash,          Home ] };
-    key <AC02> { [                     s,                   S,                slash,          Left ] };
-    key <AC03> { [                     t,                   T,                slash,          Down ] };
-    key <AC04> { [                     n,                   N,            braceleft,         Right ] };
-    key <AC05> { [                     r,                   R,           braceright,           End ] };
-    key <AC06> { [                     i,                   I,             asterisk,      asterisk ] };
-    key <AC07> { [                     a,                   A,             question,             4 ] };
-    key <AC08> { [                     e,                   E,            parenleft,             5 ] };
-    key <AC09> { [                     o,                   O,           parenright,             6 ] };
-    key <AC10> { [                     h,                   H,                colon,         slash ] };
+    replace key <AC01> { [                     d,                   D,            backslash,          Home ] };
+    replace key <AC02> { [                     s,                   S,                slash,          Left ] };
+    replace key <AC03> { [                     t,                   T,                slash,          Down ] };
+    replace key <AC04> { [                     n,                   N,            braceleft,         Right ] };
+    replace key <AC05> { [                     r,                   R,           braceright,           End ] };
+    replace key <AC06> { [                     i,                   I,             asterisk,      asterisk ] };
+    replace key <AC07> { [                     a,                   A,             question,             4 ] };
+    replace key <AC08> { [                     e,                   E,            parenleft,             5 ] };
+    replace key <AC09> { [                     o,                   O,           parenright,             6 ] };
+    replace key <AC10> { [                     h,                   H,                colon,         slash ] };
 
-    key <AC11> { [ ISO_Level3_Shift ] };
-    key <BKSL> { [           Return ] };
-    key <LSGT> { [        Multi_key ] };
+    replace key <AC11> { [     ISO_Level3_Shift ] };
+    replace key <BKSL> { [               Return ] };
+    replace key <LSGT> { [ ISO_Fast_Cursor_Left ] };
 
-    key <AB01> { [                     z,                   Z,           numbersign,           F11 ] };
-    key <AB02> { [                     x,                   X,               dollar,           F12 ] };
-    key <AB03> { [                     c,                   C,                  bar,           F13 ] };
-    key <AB04> { [                     v,                   V,           asciitilde,           F14 ] };
-    key <AB05> { [                     j,                   J,                grave,           F15 ] };
-    key <AB06> { [                     k,                   K,                 plus,          plus ] };
-    key <AB07> { [                     p,                   P,              percent,             1 ] };
-    key <AB08> { [                 comma,              endash,             quotedbl,             2 ] };
-    key <AB09> { [                period,      periodcentered,           apostrophe,             3 ] };
-    key <AB10> { [                 slash,            question,            semicolon,        period ] };
+    replace key <AB01> { [                     z,                   Z,           numbersign,           F11 ] };
+    replace key <AB02> { [                     x,                   X,               dollar,           F12 ] };
+    replace key <AB03> { [                     c,                   C,                  bar,           F13 ] };
+    replace key <AB04> { [                     v,                   V,           asciitilde,           F14 ] };
+    replace key <AB05> { [                     j,                   J,                grave,           F15 ] };
+    replace key <AB06> { [                     k,                   K,                 plus,          plus ] };
+    replace key <AB07> { [                     p,                   P,              percent,             1 ] };
+    replace key <AB08> { [                 comma,              endash,             quotedbl,             2 ] };
+    replace key <AB09> { [                period,      periodcentered,           apostrophe,             3 ] };
+    replace key <AB10> { [                 slash,            question,            semicolon,        period ] };
 
-    key <LWIN> { [            Alt_L ] };
-    key <LALT> { [          Super_L ] };
+    replace key <LWIN> { [                Alt_L ] };
+    replace key <LALT> { [              Super_L ] };
 
-    key <SPCE> { [                 space,               space,                space,             0 ] };
+    replace key <SPCE> { [                 space,               space,                space,             0 ] };
 
-    key <RALT> { [          Super_R ] };
-    key <RWIN> { [            Alt_R ] };
-    key <MENU> { [        Multi_key ] };
+    replace key <RALT> { [              Super_R ] };
+    replace key <RWIN> { [                Alt_R ] };
+    replace key <MENU> { [ ISO_Fast_Cursor_Left ] };
 };
 
 partial alphanumeric_keys
@@ -83,11 +83,11 @@ xkb_symbols "jeo-mac" {
 
     name[Group1]= "English (Jeo, Macintosh)";
 
-    key <LALT> { [            Alt_L ] };
-    key <LWIN> { [          Super_L ] };
+    replace key <LALT> { [                Alt_L ] };
+    replace key <LWIN> { [              Super_L ] };
 
-    key <RWIN> { [          Super_R ] };
-    key <RALT> { [            Alt_R ] };
+    replace key <RWIN> { [              Super_R ] };
+    replace key <RALT> { [                Alt_R ] };
 };
 
 partial alphanumeric_keys
@@ -96,16 +96,19 @@ xkb_symbols "jeo-kinesis" {
 
     name[Group1]= "English (Jeo, Kinesis Advantage)";
 
-    key <AE12> { [        XF86AudioPlay,        XF86AudioPlay,        XF86AudioMute, XF86AudioMute ] };
-    key <AE11> { [ XF86AudioRaiseVolume, XF86RaiseLowerVolume,        XF86AudioNext, XF86AudioNext ] };
-    key <BKSL> { [ XF86AudioLowerVolume, XF86AudioLowerVolume,        XF86AudioPrev, XF86AudioPrev ] };
+    replace key <AE12> { [        XF86AudioPlay,        XF86AudioPlay,        XF86AudioMute, XF86AudioMute ] };
+    replace key <AE11> { [ XF86AudioRaiseVolume, XF86RaiseLowerVolume,        XF86AudioNext, XF86AudioNext ] };
+    replace key <BKSL> { [ XF86AudioLowerVolume, XF86AudioLowerVolume,        XF86AudioPrev, XF86AudioPrev ] };
 
-    key <TLDE> { [        Multi_key ] };
-    key <LSGT> { [          Super_L ] };
+    replace key <TLDE> { [ ISO_Fast_Cursor_Left ] };
+    replace key <LSGT> { [              Super_L ] };
 
-    key <AD11> { [          Super_R ] };
-    key <AD12> { [        Multi_key ] };
+    replace key <AD11> { [              Super_R ] };
+    replace key <AD12> { [ ISO_Fast_Cursor_Left ] };
 
-    key <BKSP> { [        BackSpace ] };
-    key <DELE> { [           Escape ] };
-}
+    replace key <LALT> { [                Alt_L ] };
+    replace key <RALT> { [                Alt_R ] };
+
+    replace key <BKSP> { [            BackSpace ] };
+    replace key <DELE> { [               Escape ] };
+};
