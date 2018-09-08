@@ -34,10 +34,15 @@ flag:
 xkbcomp -i 42 chosen-variant.xkm $DISPLAY
 ```
 
+> `xkbcomp` currently has a very bizarre [bug][] where if you specify a device
+> with the `-i` flag, your changes to _that device_ won’t take effect
+> immediately: XKB waits for a key press from _any other device_ first.
+
 To return to your original layout, just use `setxkbmap`:
 
 ```bash
 setxkbmap gb  # You can add e.g. `-device 42` here to act only on one device.
 ```
 
+[bug]: https://gitlab.freedesktop.org/xorg/app/xkbcomp/issues/9
 [variant]: https://jeolayout.org/#variants
