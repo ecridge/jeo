@@ -21,7 +21,8 @@ at the shell…
 
 ## Linux install
 
-Linux/X11 install is a little more fiddly (but not awful!).  The plus side is
-that it works everywhere.  See [xkb/README.md][].
+Linux/X11 install is pretty straightforward.  The layout works everywhere once
+you’ve loaded it into your session, but you might have to be a bit clever if
+you want it ready for your login screen.  See [xkb/README.md][].
 
 [xkb/README.md]: https://github.com/joecridge/jeo/tree/master/xkb

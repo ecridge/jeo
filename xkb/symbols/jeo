@@ -1,12 +1,9 @@
-// Jeo symbols for xkb on X.Org Server 7.x
-// 2018-08-25 Joe Cridge, https://jeolayout.org/
-
-partial alphanumeric_keys
-xkb_symbols "jeo" {
+default partial alphanumeric_keys
+xkb_symbols "iso-desktop" {
 
     include "gb"
 
-    name[Group1]= "English (Jeo)";
+    name[Group1]= "Jeo";
 
     replace key <TLDE> { [             CapsLock ] };
 
@@ -78,10 +75,32 @@ xkb_symbols "jeo" {
 };
 
 partial alphanumeric_keys
-xkb_symbols "jeo-mac" {
-    include "gb(jeo)"
+xkb_symbols "ansi-desktop" {
+    include "jeo(iso-desktop)"
 
-    name[Group1]= "English (Jeo, Macintosh)";
+    name[Group1]= "Jeo (ANSI)";
+
+    key <LWIN> { [ ISO_Fast_Cursor_Left ] };
+};
+
+partial alphanumeric_keys
+xkb_symbols "ansi-notebook" {
+    include "jeo(iso-desktop)"
+
+    name[Group1]= "Jeo (ANSI Notebook)";
+
+    key <LALT> { [ ISO_Fast_Cursor_Left ] };
+    key <LWIN> { [              Super_L ] };
+
+    key <RWIN> { [              Super_R ] };
+    key <RALT> { [                Alt_R ] };
+};
+
+partial alphanumeric_keys
+xkb_symbols "iso-notebook" {
+    include "jeo(iso-desktop)"
+
+    name[Group1]= "Jeo (Notebook)";
 
     replace key <LALT> { [                Alt_L ] };
     replace key <LWIN> { [              Super_L ] };
@@ -91,10 +110,10 @@ xkb_symbols "jeo-mac" {
 };
 
 partial alphanumeric_keys
-xkb_symbols "jeo-kinesis" {
-    include "gb(jeo)"
+xkb_symbols "kinesis-advantage" {
+    include "jeo(iso-desktop)"
 
-    name[Group1]= "English (Jeo, Kinesis Advantage)";
+    name[Group1]= "Jeo (Kinesis Advantage)";
 
     replace key <AE12> { [        XF86AudioPlay,        XF86AudioPlay,        XF86AudioMute, XF86AudioMute ] };
     replace key <AE11> { [ XF86AudioRaiseVolume, XF86RaiseLowerVolume,        XF86AudioNext, XF86AudioNext ] };
