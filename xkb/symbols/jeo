@@ -119,15 +119,23 @@ xkb_symbols "kinesis-advantage" {
     replace key <AE11> { [ XF86AudioRaiseVolume, XF86AudioLowerVolume,        XF86AudioNext, XF86AudioNext ] };
     replace key <BKSL> { [ XF86AudioLowerVolume, XF86AudioLowerVolume,        XF86AudioPrev, XF86AudioPrev ] };
 
-    replace key <TLDE> { [ ISO_Fast_Cursor_Left ] };
-    replace key <LSGT> { [              Super_L ] };
+    replace key <TLDE> { [           voidsymbol ] };
+    replace key <LSGT> { [           voidsymbol ] };
+    replace key <LEFT> { [           voidsymbol ] };
+    replace key <RGHT> { [           voidsymbol ] };
 
-    replace key <AD11> { [              Super_R ] };
-    replace key <AD12> { [ ISO_Fast_Cursor_Left ] };
+    replace key   <UP> { [           voidsymbol ] };
+    replace key <DOWN> { [           voidsymbol ] };
+    replace key <AD11> { [           voidsymbol ] };
+    replace key <AD12> { [           voidsymbol ] };
 
-    replace key <LALT> { [                Alt_L ] };
-    replace key <RALT> { [                Alt_R ] };
-
+    replace key <LCTL> { [ ISO_Fast_Cursor_Left ] };
     replace key <BKSP> { [            BackSpace ] };
     replace key <DELE> { [               Escape ] };
+    replace key <HOME> { [            Control_L ] };
+    replace key  <END> { [                Alt_L ] };
+
+    replace key <RCTL> { [ ISO_Fast_Cursor_Left ] };
+    replace key <PGUP> { [            Control_R ] };
+    replace key <PGDN> { [                Alt_R ] };
 };
