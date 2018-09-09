@@ -5,7 +5,7 @@ xkb_symbols "iso-desktop" {
 
     name[Group1]= "Jeo";
 
-    replace key <TLDE> { [             CapsLock ] };
+    replace key <TLDE> { [            Caps_Lock ] };
 
     replace key <AE01> { [                    1,                    1,              section,            F1 ] };
     replace key <AE02> { [                    2,                    2,                   at,            F2 ] };
@@ -13,12 +13,12 @@ xkb_symbols "iso-desktop" {
     replace key <AE04> { [                    4,                    4,             EuroSign,            F4 ] };
     replace key <AE05> { [                    5,                    5,            copyright,            F5 ] };
     replace key <AE06> { [                    6,                    6,           registered,            F6 ] };
-    replace key <AE07> { [                    7,                    7,  leftsinglequotemark,            F7 ] };
-    replace key <AE08> { [                    8,                    8, rightsinglequotemark,            F8 ] };
-    replace key <AE09> { [                    9,                    9,  leftdoublequotemark,            F9 ] };
-    replace key <AE10> { [                    0,                    0, rightdoublequotemark,           F10 ] };
+    replace key <AE07> { [                    7,                    7,  leftdoublequotemark,            F7 ] };
+    replace key <AE08> { [                    8,                    8, rightdoublequotemark,            F8 ] };
+    replace key <AE09> { [                    9,                    9,  leftsinglequotemark,            F9 ] };
+    replace key <AE10> { [                    0,                    0, rightsinglequotemark,           F10 ] };
     replace key <AE11> { [ XF86AudioLowerVolume, XF86AudioLowerVolume,        XF86AudioPrev, XF86AudioPrev ] };
-    replace key <AE12> { [ XF86AudioRaiseVolume, XF86RaiseLowerVolume,        XF86AudioNext, XF86AudioNext ] };
+    replace key <AE12> { [ XF86AudioRaiseVolume, XF86AudioRaiseVolume,        XF86AudioNext, XF86AudioNext ] };
 
     replace key <BKSP> { [        XF86AudioPlay,        XF86AudioPlay,        XF86AudioMute, XF86AudioMute ] };
 
@@ -29,7 +29,7 @@ xkb_symbols "iso-desktop" {
     replace key <AD05> { [                     w,                   W,          asciicircum,     Page_Down ] };
     replace key <AD06> { [                     y,                   Y,               exclam,           Tab ] };
     replace key <AD07> { [                     f,                   F,                 less,             7 ] };
-    replace key <AD08> { [                     u,                   U,                 more,             8 ] };
+    replace key <AD08> { [                     u,                   U,              greater,             8 ] };
     replace key <AD09> { [                     b,                   B,                equal,             9 ] };
     replace key <AD10> { [                 minus,          underscore,            ampersand,         minus ] };
 
@@ -40,13 +40,13 @@ xkb_symbols "iso-desktop" {
 
     replace key <AC01> { [                     d,                   D,            backslash,          Home ] };
     replace key <AC02> { [                     s,                   S,                slash,          Left ] };
-    replace key <AC03> { [                     t,                   T,                slash,          Down ] };
-    replace key <AC04> { [                     n,                   N,            braceleft,         Right ] };
-    replace key <AC05> { [                     r,                   R,           braceright,           End ] };
-    replace key <AC06> { [                     i,                   I,             asterisk,      asterisk ] };
-    replace key <AC07> { [                     a,                   A,             question,             4 ] };
-    replace key <AC08> { [                     e,                   E,            parenleft,             5 ] };
-    replace key <AC09> { [                     o,                   O,           parenright,             6 ] };
+    replace key <AC03> { [                     t,                   T,            braceleft,          Down ] };
+    replace key <AC04> { [                     n,                   N,           braceright,         Right ] };
+    replace key <AC05> { [                     r,                   R,             asterisk,           End ] };
+    replace key <AC06> { [                     i,                   I,             question,      asterisk ] };
+    replace key <AC07> { [                     a,                   A,            parenleft,             4 ] };
+    replace key <AC08> { [                     e,                   E,           parenright,             5 ] };
+    replace key <AC09> { [                     o,                   O,                minus,             6 ] };
     replace key <AC10> { [                     h,                   H,                colon,         slash ] };
 
     replace key <AC11> { [     ISO_Level3_Shift ] };
@@ -116,7 +116,7 @@ xkb_symbols "kinesis-advantage" {
     name[Group1]= "Jeo (Kinesis Advantage)";
 
     replace key <AE12> { [        XF86AudioPlay,        XF86AudioPlay,        XF86AudioMute, XF86AudioMute ] };
-    replace key <AE11> { [ XF86AudioRaiseVolume, XF86RaiseLowerVolume,        XF86AudioNext, XF86AudioNext ] };
+    replace key <AE11> { [ XF86AudioRaiseVolume, XF86AudioLowerVolume,        XF86AudioNext, XF86AudioNext ] };
     replace key <BKSL> { [ XF86AudioLowerVolume, XF86AudioLowerVolume,        XF86AudioPrev, XF86AudioPrev ] };
 
     replace key <TLDE> { [ ISO_Fast_Cursor_Left ] };
