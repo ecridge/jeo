@@ -5,73 +5,211 @@ xkb_symbols "iso-desktop" {
 
     name[Group1]= "Jeo";
 
-    replace key <TLDE> { [            Caps_Lock ] };
+    replace key <TLDE> { [        Caps_Lock ] };
 
-    replace key <AE01> { [                    1,                    1,              section,            F1 ] };
-    replace key <AE02> { [                    2,                    2,                   at,            F2 ] };
-    replace key <AE03> { [                    3,                    3,             sterling,            F3 ] };
-    replace key <AE04> { [                    4,                    4,             EuroSign,            F4 ] };
-    replace key <AE05> { [                    5,                    5,            copyright,            F5 ] };
-    replace key <AE06> { [                    6,                    6,           registered,            F6 ] };
-    replace key <AE07> { [                    7,                    7,  leftdoublequotemark,            F7 ] };
-    replace key <AE08> { [                    8,                    8, rightdoublequotemark,            F8 ] };
-    replace key <AE09> { [                    9,                    9,  leftsinglequotemark,            F9 ] };
-    replace key <AE10> { [                    0,                    0, rightsinglequotemark,           F10 ] };
-    replace key <AE11> { [ XF86AudioLowerVolume, XF86AudioLowerVolume,        XF86AudioPrev, XF86AudioPrev ] };
-    replace key <AE12> { [ XF86AudioRaiseVolume, XF86AudioRaiseVolume,        XF86AudioNext, XF86AudioNext ] };
+    replace key <AE01> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                    1,                    1,              section,            F1 ]
+    };
+    replace key <AE02> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                    2,                    2,                   at,            F2 ]
+    };
+    replace key <AE03> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                    3,                    3,             sterling,            F3 ]
+    };
+    replace key <AE04> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                    4,                    4,             EuroSign,            F4 ]
+    };
+    replace key <AE05> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                    5,                    5,            copyright,            F5 ]
+    };
+    replace key <AE06> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                    6,                    6,           registered,            F6 ]
+    };
+    replace key <AE07> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                    7,                    7,  leftdoublequotemark,            F7 ]
+    };
+    replace key <AE08> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                    8,                    8, rightdoublequotemark,            F8 ]
+    };
+    replace key <AE09> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                    9,                    9,  leftsinglequotemark,            F9 ]
+    };
+    replace key <AE10> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                    0,                    0, rightsinglequotemark,           F10 ]
+    };
+    replace key <AE11> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [ XF86AudioLowerVolume, XF86AudioLowerVolume,        XF86AudioPrev, XF86AudioPrev ]
+    };
+    replace key <AE12> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [ XF86AudioRaiseVolume, XF86AudioRaiseVolume,        XF86AudioNext, XF86AudioNext ]
+    };
 
-    replace key <BKSP> { [        XF86AudioPlay,        XF86AudioPlay,        XF86AudioMute, XF86AudioMute ] };
+    replace key <BKSP> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [        XF86AudioPlay,        XF86AudioPlay,        XF86AudioMute, XF86AudioMute ]
+    };
 
-    replace key <AD01> { [                     q,                   Q,             ellipsis,       Page_Up ] };
-    replace key <AD02> { [                     g,                   G,           underscore,     BackSpace ] };
-    replace key <AD03> { [                     m,                   M,          bracketleft,            Up ] };
-    replace key <AD04> { [                     l,                   L,         bracketright,        Delete ] };
-    replace key <AD05> { [                     w,                   W,          asciicircum,     Page_Down ] };
-    replace key <AD06> { [                     y,                   Y,               exclam,           Tab ] };
-    replace key <AD07> { [                     f,                   F,                 less,             7 ] };
-    replace key <AD08> { [                     u,                   U,              greater,             8 ] };
-    replace key <AD09> { [                     b,                   B,                equal,             9 ] };
-    replace key <AD10> { [                 minus,          underscore,            ampersand,         minus ] };
+    replace key <AD01> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                     q,                   Q,             ellipsis,       Page_Up ]
+    };
+    replace key <AD02> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                     g,                   G,           underscore,     BackSpace ]
+    };
+    replace key <AD03> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                     m,                   M,          bracketleft,            Up ]
+    };
+    replace key <AD04> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                     l,                   L,         bracketright,        Delete ]
+    };
+    replace key <AD05> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                     w,                   W,          asciicircum,     Page_Down ]
+    };
+    replace key <AD06> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                     y,                   Y,               exclam,           Tab ]
+    };
+    replace key <AD07> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                     f,                   F,                 less,             7 ]
+    };
+    replace key <AD08> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                     u,                   U,              greater,             8 ]
+    };
+    replace key <AD09> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                     b,                   B,                equal,             9 ]
+    };
+    replace key <AD10> {
+        type= "JEO_FOUR_LEVEL_PUNCTUATION",
+        symbols[Group1]= [                 minus,          underscore,            ampersand,         minus ]
+    };
 
-    replace key <AD11> { [            BackSpace ] };
-    replace key <AD12> { [               Escape ] };
+    replace key <AD11> { [        BackSpace ] };
+    replace key <AD12> { [           Escape ] };
 
     replace key <CAPS> { [ ISO_Level3_Shift ] };
 
-    replace key <AC01> { [                     d,                   D,            backslash,          Home ] };
-    replace key <AC02> { [                     s,                   S,                slash,          Left ] };
-    replace key <AC03> { [                     t,                   T,            braceleft,          Down ] };
-    replace key <AC04> { [                     n,                   N,           braceright,         Right ] };
-    replace key <AC05> { [                     r,                   R,             asterisk,           End ] };
-    replace key <AC06> { [                     i,                   I,             question,      asterisk ] };
-    replace key <AC07> { [                     a,                   A,            parenleft,             4 ] };
-    replace key <AC08> { [                     e,                   E,           parenright,             5 ] };
-    replace key <AC09> { [                     o,                   O,                minus,             6 ] };
-    replace key <AC10> { [                     h,                   H,                colon,         slash ] };
+    replace key <AC01> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                     d,                   D,            backslash,          Home ]
+    };
+    replace key <AC02> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                     s,                   S,                slash,          Left ]
+    };
+    replace key <AC03> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                     t,                   T,            braceleft,          Down ]
+    };
+    replace key <AC04> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                     n,                   N,           braceright,         Right ]
+    };
+    replace key <AC05> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                     r,                   R,             asterisk,           End ]
+    };
+    replace key <AC06> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                     i,                   I,             question,      asterisk ]
+    };
+    replace key <AC07> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                     a,                   A,            parenleft,             4 ]
+    };
+    replace key <AC08> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                     e,                   E,           parenright,             5 ]
+    };
+    replace key <AC09> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                     o,                   O,                minus,             6 ]
+    };
+    replace key <AC10> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                     h,                   H,                colon,         slash ]
+    };
 
-    replace key <AC11> { [     ISO_Level3_Shift ] };
-    replace key <BKSL> { [               Return ] };
-    replace key <LSGT> { [ ISO_Fast_Cursor_Left ] };
+    replace key <AC11> { [ ISO_Level3_Shift ] };
+    replace key <BKSL> { [           Return ] };
+    replace key <LSGT> { [ ISO_Level5_Shift ] };
 
-    replace key <AB01> { [                     z,                   Z,           numbersign,           F11 ] };
-    replace key <AB02> { [                     x,                   X,               dollar,           F12 ] };
-    replace key <AB03> { [                     c,                   C,                  bar,           F13 ] };
-    replace key <AB04> { [                     v,                   V,           asciitilde,           F14 ] };
-    replace key <AB05> { [                     j,                   J,                grave,           F15 ] };
-    replace key <AB06> { [                     k,                   K,                 plus,          plus ] };
-    replace key <AB07> { [                     p,                   P,              percent,             1 ] };
-    replace key <AB08> { [                 comma,              endash,             quotedbl,             2 ] };
-    replace key <AB09> { [                period,      periodcentered,           apostrophe,             3 ] };
-    replace key <AB10> { [                 slash,            question,            semicolon,        period ] };
+    replace key <AB01> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                     z,                   Z,           numbersign,           F11 ]
+    };
+    replace key <AB02> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                     x,                   X,               dollar,           F12 ]
+    };
+    replace key <AB03> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                     c,                   C,                  bar,           F13 ]
+    };
+    replace key <AB04> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                     v,                   V,           asciitilde,           F14 ]
+    };
+    replace key <AB05> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                     j,                   J,                grave,           F15 ]
+    };
+    replace key <AB06> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                     k,                   K,                 plus,          plus ]
+    };
+    replace key <AB07> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                     p,                   P,              percent,             1 ]
+    };
+    replace key <AB08> {
+        type= "JEO_FOUR_LEVEL_PUNCTUATION",
+        symbols[Group1]= [                 comma,              endash,             quotedbl,             2 ]
+    };
+    replace key <AB09> {
+        type= "JEO_FOUR_LEVEL_PUNCTUATION",
+        symbols[Group1]= [                period,      periodcentered,           apostrophe,             3 ]
+    };
+    replace key <AB10> {
+        type= "JEO_FOUR_LEVEL_PUNCTUATION",
+        symbols[Group1]= [                 slash,            question,            semicolon,        period ]
+    };
 
-    replace key <LWIN> { [                Alt_L ] };
-    replace key <LALT> { [              Super_L ] };
+    replace key <LWIN> { [            Alt_L ] };
+    replace key <LALT> { [          Super_L ] };
 
-    replace key <SPCE> { [                 space,               space,                space,             0 ] };
+    replace key <SPCE> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [                 space,               space,                space,             0 ]
+    };
 
-    replace key <RALT> { [              Super_R ] };
-    replace key <RWIN> { [                Alt_R ] };
-    replace key <MENU> { [ ISO_Fast_Cursor_Left ] };
+    replace key <RALT> { [          Super_R ] };
+    replace key <RWIN> { [            Alt_R ] };
+    replace key <MENU> { [ ISO_Level5_Shift ] };
+
+    modifier_map    Lock { <TLDE> };
+    modifier_map    Mod1 { <LWIN>, <RWIN> };
+    modifier_map    Mod3 { <LSGT>, <MENU> };
+    modifier_map    Mod4 { <LALT>, <RALT> };
+    modifier_map    Mod5 { <CAPS>, <AC11> };
 };
 
 partial alphanumeric_keys
@@ -80,7 +218,7 @@ xkb_symbols "ansi-desktop" {
 
     name[Group1]= "Jeo (ANSI)";
 
-    key <LWIN> { [ ISO_Fast_Cursor_Left ] };
+    replace key <LWIN> { [ ISO_Level5_Shift ] };
 };
 
 partial alphanumeric_keys
@@ -89,11 +227,15 @@ xkb_symbols "ansi-notebook" {
 
     name[Group1]= "Jeo (ANSI Notebook)";
 
-    key <LALT> { [ ISO_Fast_Cursor_Left ] };
-    key <LWIN> { [              Super_L ] };
+    replace key <LALT> { [ ISO_Level5_Shift ] };
+    replace key <LWIN> { [          Super_L ] };
 
-    key <RWIN> { [              Super_R ] };
-    key <RALT> { [                Alt_R ] };
+    replace key <RWIN> { [          Super_R ] };
+    replace key <RALT> { [            Alt_R ] };
+
+    modifier_map    Mod1 {         <RALT> };
+    modifier_map    Mod3 { <LALT>         };
+    modifier_map    Mod4 {         <RWIN> };
 };
 
 partial alphanumeric_keys
@@ -102,11 +244,14 @@ xkb_symbols "iso-notebook" {
 
     name[Group1]= "Jeo (Notebook)";
 
-    replace key <LALT> { [                Alt_L ] };
-    replace key <LWIN> { [              Super_L ] };
+    replace key <LALT> { [            Alt_L ] };
+    replace key <LWIN> { [          Super_L ] };
 
-    replace key <RWIN> { [              Super_R ] };
-    replace key <RALT> { [                Alt_R ] };
+    replace key <RWIN> { [          Super_R ] };
+    replace key <RALT> { [            Alt_R ] };
+
+    modifier_map    Mod1 { <LALT>, <RALT> };
+    modifier_map    Mod4 { <LWIN>, <RWIN> };
 };
 
 partial alphanumeric_keys
@@ -115,27 +260,42 @@ xkb_symbols "kinesis-advantage" {
 
     name[Group1]= "Jeo (Kinesis Advantage)";
 
-    replace key <AE12> { [        XF86AudioPlay,        XF86AudioPlay,        XF86AudioMute, XF86AudioMute ] };
-    replace key <AE11> { [ XF86AudioRaiseVolume, XF86AudioLowerVolume,        XF86AudioNext, XF86AudioNext ] };
-    replace key <BKSL> { [ XF86AudioLowerVolume, XF86AudioLowerVolume,        XF86AudioPrev, XF86AudioPrev ] };
+    replace key <AE12> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [        XF86AudioPlay,        XF86AudioPlay,        XF86AudioMute, XF86AudioMute ]
+    };
+    replace key <AE11> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [ XF86AudioRaiseVolume, XF86AudioLowerVolume,        XF86AudioNext, XF86AudioNext ]
+    };
+    replace key <BKSL> {
+        type= "JEO_FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [ XF86AudioLowerVolume, XF86AudioLowerVolume,        XF86AudioPrev, XF86AudioPrev ]
+    };
 
-    replace key <TLDE> { [           voidsymbol ] };
-    replace key <LSGT> { [           voidsymbol ] };
-    replace key <LEFT> { [           voidsymbol ] };
-    replace key <RGHT> { [           voidsymbol ] };
+    replace key <TLDE> { [        Caps_Lock ] };
+    replace key <LSGT> { [       voidsymbol ] };
+    replace key <LEFT> { [       voidsymbol ] };
+    replace key <RGHT> { [       voidsymbol ] };
 
-    replace key   <UP> { [           voidsymbol ] };
-    replace key <DOWN> { [           voidsymbol ] };
-    replace key <AD11> { [           voidsymbol ] };
-    replace key <AD12> { [           voidsymbol ] };
+    replace key   <UP> { [       voidsymbol ] };
+    replace key <DOWN> { [       voidsymbol ] };
+    replace key <AD11> { [       voidsymbol ] };
+    replace key <AD12> { [       voidsymbol ] };
 
-    replace key <LCTL> { [ ISO_Fast_Cursor_Left ] };
-    replace key <BKSP> { [            BackSpace ] };
-    replace key <DELE> { [               Escape ] };
-    replace key <HOME> { [            Control_L ] };
-    replace key  <END> { [                Alt_L ] };
+    replace key <LCTL> { [ ISO_Level5_Shift ] };
+    replace key <BKSP> { [        BackSpace ] };
+    replace key <DELE> { [           Escape ] };
+    replace key <HOME> { [        Control_L ] };
+    replace key  <END> { [            Alt_L ] };
 
-    replace key <RCTL> { [ ISO_Fast_Cursor_Left ] };
-    replace key <PGUP> { [            Control_R ] };
-    replace key <PGDN> { [                Alt_R ] };
+    replace key <RCTL> { [ ISO_Level5_Shift ] };
+    replace key <PGUP> { [        Control_R ] };
+    replace key <PGDN> { [            Alt_R ] };
+
+    modifier_map Control { <HOME>, <PGUP> };
+    modifier_map    Lock { <LSGT>         };
+    modifier_map    Mod1 { <PGDN>,  <END> };
+    modifier_map    Mod3 { <LCTL>, <RCTL> };
+    modifier_map    Mod4 { <LALT>, <RALT> };
 };

@@ -1,21 +1,27 @@
-// Additional compatibility for the Jeo keyboard layout
-// 2018-08-29 Joe Cridge, https://jeolayout.org/
-
 default partial xkb_compatibility "default" {
 
-    virtual_modifiers  LevelThree;
+    virtual_modifiers  LevelThree,LevelFive;
 
     interpret.repeat= False;
     setMods.clearLocks= True;
     latchMods.clearLocks= True;
     latchMods.latchToLock= True;
 
-    interpret ISO_Fast_Cursor_Left+AnyOf(all) {
+    interpret ISO_Level3_Shift+AnyOf(all) {
         useModMapMods= level1;
-        action= SetMods(modifiers=Shift+LevelThree);
+        action= SetMods(modifiers=LevelThree);
     };
 
-    interpret ISO_Fast_Cursor_Left+AnyOfOrNone(all) {
-        action= SetMods(modifiers=Shift+LevelThree);
+    interpret ISO_Level3_Shift+AnyOfOrNone(all) {
+        action= SetMods(modifiers=LevelThree);
+    };
+
+    interpret ISO_Level5_Shift+AnyOf(all) {
+        useModMapMods= level1;
+        action= SetMods(modifiers=LevelFive);
+    };
+
+    interpret ISO_Level5_Shift+AnyOfOrNone(all) {
+        action= SetMods(modifiers=LevelFive);
     };
 };

@@ -1,39 +1,39 @@
 default xkb_keymap "iso-desktop" {
     xkb_keycodes  { include "evdev+aliases(qwerty)"                 };
-    xkb_types     { include "complete"                              };
+    xkb_types     { include "complete+jeo"                          };
     xkb_compat    { include "complete+jeo"                          };
-    xkb_symbols   { include "pc+jeo+inet(evdev)"                    };
+    xkb_symbols   { include "pc+inet(evdev)+jeo"                    };
     xkb_geometry  { include "pc(pc105)"                             };
 };
 
 xkb_keymap "ansi-desktop" {
     xkb_keycodes  { include "evdev+aliases(qwerty)"                 };
-    xkb_types     { include "complete"                              };
+    xkb_types     { include "complete+jeo"                          };
     xkb_compat    { include "complete+jeo"                          };
-    xkb_symbols   { include "pc+jeo(ansi-desktop)+inet(evdev)"      };
+    xkb_symbols   { include "pc+inet(evdev)+jeo(ansi-desktop)"      };
     xkb_geometry  { include "pc(pc105)"                             };
 };
 
 xkb_keymap "ansi-notebook" {
     xkb_keycodes  { include "evdev+aliases(qwerty)"                 };
-    xkb_types     { include "complete"                              };
+    xkb_types     { include "complete+jeo"                          };
     xkb_compat    { include "complete+jeo"                          };
-    xkb_symbols   { include "pc+jeo(ansi-notebook)+inet(evdev)"     };
+    xkb_symbols   { include "pc+inet(evdev)+jeo(ansi-notebook)"     };
     xkb_geometry  { include "pc(pc105)"                             };
 };
 
 xkb_keymap "iso-notebook" {
     xkb_keycodes  { include "evdev+aliases(qwerty)"                 };
-    xkb_types     { include "complete"                              };
+    xkb_types     { include "complete+jeo"                          };
     xkb_compat    { include "complete+jeo"                          };
-    xkb_symbols   { include "pc+jeo(iso-notebook)+inet(evdev)"      };
+    xkb_symbols   { include "pc+inet(evdev)+jeo(iso-notebook)"      };
     xkb_geometry  { include "pc(pc105)"                             };
 };
 
 xkb_keymap "kinesis-advantage" {
     xkb_keycodes  { include "evdev+aliases(qwerty)"                 };
-    xkb_types     { include "complete"                              };
+    xkb_types     { include "complete+jeo"                          };
     xkb_compat    { include "complete+jeo"                          };
-    xkb_symbols   { include "pc+jeo(kinesis-advantage)+inet(evdev)" };
+    xkb_symbols   { include "pc+inet(evdev)+jeo(kinesis-advantage)" };
     xkb_geometry  { include "pc(pc105)"                             };
 };
