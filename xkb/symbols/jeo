@@ -219,6 +219,8 @@ xkb_symbols "ansi-desktop" {
     name[Group1]= "Jeo (ANSI)";
 
     replace key <LWIN> { [ ISO_Level5_Shift ] };
+
+    modifier_map    Mod3 { <LWIN>         };
 };
 
 partial alphanumeric_keys
@@ -283,19 +285,18 @@ xkb_symbols "kinesis-advantage" {
     replace key <AD11> { [       voidsymbol ] };
     replace key <AD12> { [       voidsymbol ] };
 
-    replace key <LCTL> { [ ISO_Level5_Shift ] };
     replace key <BKSP> { [        BackSpace ] };
     replace key <DELE> { [           Escape ] };
-    replace key <HOME> { [        Control_L ] };
-    replace key  <END> { [            Alt_L ] };
+    replace key <LALT> { [            Alt_L ] };
+    replace key <HOME> { [          Super_L ] };
+    replace key  <END> { [ ISO_Level5_Shift ] };
 
-    replace key <RCTL> { [ ISO_Level5_Shift ] };
-    replace key <PGUP> { [        Control_R ] };
-    replace key <PGDN> { [            Alt_R ] };
+    replace key <RALT> { [            Alt_R ] };
+    replace key <PGUP> { [          Super_R ] };
+    replace key <PGDN> { [ ISO_Level5_Shift ] };
 
-    modifier_map Control { <HOME>, <PGUP> };
     modifier_map    Lock { <LSGT>         };
-    modifier_map    Mod1 { <PGDN>,  <END> };
-    modifier_map    Mod3 { <LCTL>, <RCTL> };
-    modifier_map    Mod4 { <LALT>, <RALT> };
+    modifier_map    Mod1 { <LALT>, <RALT> };
+    modifier_map    Mod3 {  <END>, <PGDN> };
+    modifier_map    Mod4 { <HOME>, <PGUP> };
 };
