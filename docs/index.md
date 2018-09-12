@@ -142,6 +142,10 @@ you.[^endgame]  Here’s a little inspiration:
 
 ![ISO notebook Jeo variant](/images/iso-notebook.png)
 
+### Kinesis Advantage
+
+![Kinesis Advantage Jeo variant](/images/kinesis-advantage.png)
+
 [^endgame]:
     If you do happen to be the proud owner of a split Topre ortholinear
     keyboard, please let me know how you acquired it!  I want one.
