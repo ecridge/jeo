@@ -17,7 +17,7 @@ xkb_symbols "iso-desktop" {
     };
     replace key <AE03> {
         type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                    3,                    3,             sterling,            F3 ]
+        symbols[Group1]= [                    3,                    3,           numbersign,            F3 ]
     };
     replace key <AE04> {
         type= "JEO_FOUR_LEVEL_ALPHABETIC",
@@ -33,19 +33,19 @@ xkb_symbols "iso-desktop" {
     };
     replace key <AE07> {
         type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                    7,                    7,  leftdoublequotemark,            F7 ]
+        symbols[Group1]= [                    7,                    7,  leftsinglequotemark,            F7 ]
     };
     replace key <AE08> {
         type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                    8,                    8, rightdoublequotemark,            F8 ]
+        symbols[Group1]= [                    8,                    8, rightsinglequotemark,            F8 ]
     };
     replace key <AE09> {
         type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                    9,                    9,  leftsinglequotemark,            F9 ]
+        symbols[Group1]= [                    9,                    9,  leftdoublequotemark,            F9 ]
     };
     replace key <AE10> {
         type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                    0,                    0, rightsinglequotemark,           F10 ]
+        symbols[Group1]= [                    0,                    0, rightdoublequotemark,           F10 ]
     };
     replace key <AE11> {
         type= "JEO_FOUR_LEVEL_ALPHABETIC",
@@ -154,7 +154,7 @@ xkb_symbols "iso-desktop" {
 
     replace key <AB01> {
         type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     z,                   Z,           numbersign,           F11 ]
+        symbols[Group1]= [                     z,                   Z,             sterling,           F11 ]
     };
     replace key <AB02> {
         type= "JEO_FOUR_LEVEL_ALPHABETIC",
