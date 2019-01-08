@@ -17,7 +17,7 @@ xkb_symbols "iso-desktop" {
     };
     replace key <AE03> {
         type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                    3,                    3,           numbersign,            F3 ]
+        symbols[Group1]= [                    3,                    3,             sterling,            F3 ]
     };
     replace key <AE04> {
         type= "JEO_FOUR_LEVEL_ALPHABETIC",
@@ -154,7 +154,7 @@ xkb_symbols "iso-desktop" {
 
     replace key <AB01> {
         type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     z,                   Z,             sterling,           F11 ]
+        symbols[Group1]= [                     z,                   Z,           numbersign,           F11 ]
     };
     replace key <AB02> {
         type= "JEO_FOUR_LEVEL_ALPHABETIC",
