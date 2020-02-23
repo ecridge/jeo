@@ -19,7 +19,7 @@ return {
   ['u'] = { key = 'f', alt = false, shift = false },
   ['i'] = { key = 'u', alt = false, shift = false },
   ['o'] = { key = 'b', alt = false, shift = false },
-  ['p'] = { key = '-', alt = false, shift = false },
+  ['p'] = { key = ']', alt = true,  shift = true  },
 
   ['a'] = { key = 'd', alt = false, shift = false },
   ['s'] = { key = 's', alt = false, shift = false },
@@ -32,14 +32,14 @@ return {
   ['l'] = { key = 'o', alt = false, shift = false },
   [';'] = { key = 'h', alt = false, shift = false },
 
-  ['z'] = { key = 'z', alt = false, shift = false },
-  ['x'] = { key = 'x', alt = false, shift = false },
-  ['c'] = { key = 'c', alt = false, shift = false },
-  ['v'] = { key = 'v', alt = false, shift = false },
-  ['b'] = { key = 'j', alt = false, shift = false },
-  ['n'] = { key = 'k', alt = false, shift = false },
-  ['m'] = { key = 'p', alt = false, shift = false },
-  [','] = { key = ',', alt = false, shift = false },
-  ['.'] = { key = '.', alt = false, shift = false },
-  ['/'] = { key = '/', alt = false, shift = false }
+  ['z'] = { key = 'z',  alt = false, shift = false },
+  ['x'] = { key = 'x',  alt = false, shift = false },
+  ['c'] = { key = 'c',  alt = false, shift = false },
+  ['v'] = { key = 'v',  alt = false, shift = false },
+  ['b'] = { key = 'j',  alt = false, shift = false },
+  ['n'] = { key = 'k',  alt = false, shift = false },
+  ['m'] = { key = 'p',  alt = false, shift = false },
+  [','] = { key = ',',  alt = false, shift = false },
+  ['.'] = { key = '.',  alt = false, shift = false },
+  ['/'] = { key = '\'', alt = false, shift = false }
 }

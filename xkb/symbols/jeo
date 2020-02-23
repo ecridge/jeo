@@ -9,43 +9,43 @@ xkb_symbols "iso-desktop" {
 
     replace key <AE01> {
         type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                    1,                    1,              section,            F1 ]
+        symbols[Group1]= [                    1,                    1,                    1,            F1 ]
     };
     replace key <AE02> {
         type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                    2,                    2,                   at,            F2 ]
+        symbols[Group1]= [                    2,                    2,                    2,            F2 ]
     };
     replace key <AE03> {
         type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                    3,                    3,             sterling,            F3 ]
+        symbols[Group1]= [                    3,                    3,                    3,            F3 ]
     };
     replace key <AE04> {
         type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                    4,                    4,             EuroSign,            F4 ]
+        symbols[Group1]= [                    4,                    4,                    4,            F4 ]
     };
     replace key <AE05> {
         type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                    5,                    5,            copyright,            F5 ]
+        symbols[Group1]= [                    5,                    5,                    5,            F5 ]
     };
     replace key <AE06> {
         type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                    6,                    6,           registered,            F6 ]
+        symbols[Group1]= [                    6,                    6,                    6,            F6 ]
     };
     replace key <AE07> {
         type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                    7,                    7,  leftsinglequotemark,            F7 ]
+        symbols[Group1]= [                    7,                    7,                    7,            F7 ]
     };
     replace key <AE08> {
         type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                    8,                    8, rightsinglequotemark,            F8 ]
+        symbols[Group1]= [                    8,                    8,                    8,            F8 ]
     };
     replace key <AE09> {
         type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                    9,                    9,  leftdoublequotemark,            F9 ]
+        symbols[Group1]= [                    9,                    9,                    9,            F9 ]
     };
     replace key <AE10> {
         type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                    0,                    0, rightdoublequotemark,           F10 ]
+        symbols[Group1]= [                    0,                    0,                    0,           F10 ]
     };
     replace key <AE11> {
         type= "JEO_FOUR_LEVEL_ALPHABETIC",
@@ -63,7 +63,7 @@ xkb_symbols "iso-desktop" {
 
     replace key <AD01> {
         type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     q,                   Q,             ellipsis,       Page_Up ]
+        symbols[Group1]= [                     q,                   Q,              section,       Page_Up ]
     };
     replace key <AD02> {
         type= "JEO_FOUR_LEVEL_ALPHABETIC",
@@ -99,7 +99,7 @@ xkb_symbols "iso-desktop" {
     };
     replace key <AD10> {
         type= "JEO_FOUR_LEVEL_PUNCTUATION",
-        symbols[Group1]= [                 minus,          underscore,            ampersand,         minus ]
+        symbols[Group1]= [  rightsinglequotemark, leftsinglequotemark,             sterling,         minus ]
     };
 
     replace key <AD11> { [        BackSpace ] };
@@ -182,15 +182,15 @@ xkb_symbols "iso-desktop" {
     };
     replace key <AB08> {
         type= "JEO_FOUR_LEVEL_PUNCTUATION",
-        symbols[Group1]= [                 comma,              endash,             quotedbl,             2 ]
+        symbols[Group1]= [                 comma,              endash,                   at,             2 ]
     };
     replace key <AB09> {
         type= "JEO_FOUR_LEVEL_PUNCTUATION",
-        symbols[Group1]= [                period,      periodcentered,           apostrophe,             3 ]
+        symbols[Group1]= [                period,            ellipsis,            ampersand,             3 ]
     };
     replace key <AB10> {
         type= "JEO_FOUR_LEVEL_PUNCTUATION",
-        symbols[Group1]= [                 slash,            question,            semicolon,        period ]
+        symbols[Group1]= [            apostrophe,            quotedbl,            semicolon,        period ]
     };
 
     replace key <LWIN> { [            Alt_L ] };
