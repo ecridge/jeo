@@ -161,8 +161,8 @@ Check out the README on [GitHub][].
 ### Why is it called ‘Jeo’?
 
 Jeo’s symbol and navigation layers are inspired by _Neo_, a layout for
-German-speaking programmers.  Also, ‘Jeo’ is the way I kept mis-spelling my
-name while I was starting out with the layout.
+German-speaking programmers.  Also, ‘Jeo’ is the way I kept mis-spelling an
+old name while I was starting out with the layout.
 
 ### Does it work with Vim?
 
