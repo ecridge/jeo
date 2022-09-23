@@ -38,7 +38,7 @@ This is an implementation of the [Jeo Keyboard Layout][JKL] for macOS Sierra
 
     ```sh
      cd ~/.hammerspoon/
-     git clone https://github.com/joecridge/jeospoon.git
+     git clone https://github.com/ecridge/jeospoon.git
     ```
 
 5.  Add the following lines to your `~/.hammerspoon/init.lua`:
@@ -72,4 +72,4 @@ jeo.enablePassThrough()  -- Keyboard is now standard QWERTY.
 jeo.disablePassThrough() -- Keyboard is now Jeo remapped.
 ```
 
-[JKL]: https://github.com/joecridge/jeo
+[JKL]: https://github.com/ecridge/jeo

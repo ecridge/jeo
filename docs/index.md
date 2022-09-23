@@ -1,5 +1,5 @@
 ---
-author: joecridge
+author: ecridge
 title: About
 ---
 # The Jeo Keyboard Layout
@@ -156,7 +156,7 @@ you.[^endgame]  Here’s a little inspiration:
 
 Check out the README on [GitHub][].
 
-[GitHub]: https://github.com/joecridge/jeo
+[GitHub]: https://github.com/ecridge/jeo
 
 ### Why is it called ‘Jeo’?
 
@@ -183,7 +183,7 @@ Using the fantastic [keyboard-layout-editor.com][editor].  You can check out
 the sources [on GitHub][geometries].
 
 [editor]: http://keyboard-layout-editor.com/
-[geometries]: https://github.com/joecridge/jeo/tree/master/docs/geometries
+[geometries]: https://github.com/ecridge/jeo/tree/master/docs/geometries
 
 ### What exactly do the legends on the geometries mean?
 
