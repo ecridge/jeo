@@ -13,8 +13,8 @@ is pretty straightforward to set up – go check out [hammerspoon/README.md][].
 The only caveat is that Hammerspoon has no effect during ‘secure text entry’,
 which means that you’ll have to make do with QWERTY when typing in passwords.
 Note that Terminal.app has a setting where you can force _everything_ you type
-to be sent via secure entry; I suggest you turn that off if you want to use Jeo
-at the shell…
+to be sent via secure entry; I suggest you turn that off if you want to use
+Jeo at the shell…
 
 [Hammerspoon]: https://www.hammerspoon.org/
 [hammerspoon/README.md]: https://github.com/ecridge/jeo/tree/master/hammerspoon
