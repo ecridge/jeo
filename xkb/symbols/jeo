@@ -1,302 +1,239 @@
-default partial alphanumeric_keys
-xkb_symbols "iso-desktop" {
+//
+// Adaptations of the system level3 and level5 switches.
+//
 
-    include "gb"
-
-    name[Group1]= "Jeo";
-
-    replace key <TLDE> { [        Caps_Lock ] };
-
-    replace key <AE01> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                    1,                    1,                    1,            F1 ]
-    };
-    replace key <AE02> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                    2,                    2,                    2,            F2 ]
-    };
-    replace key <AE03> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                    3,                    3,                    3,            F3 ]
-    };
-    replace key <AE04> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                    4,                    4,                    4,            F4 ]
-    };
-    replace key <AE05> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                    5,                    5,                    5,            F5 ]
-    };
-    replace key <AE06> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                    6,                    6,                    6,            F6 ]
-    };
-    replace key <AE07> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                    7,                    7,                    7,            F7 ]
-    };
-    replace key <AE08> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                    8,                    8,                    8,            F8 ]
-    };
-    replace key <AE09> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                    9,                    9,                    9,            F9 ]
-    };
-    replace key <AE10> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                    0,                    0,                    0,           F10 ]
-    };
-    replace key <AE11> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [ XF86AudioLowerVolume, XF86AudioLowerVolume,        XF86AudioPrev, XF86AudioPrev ]
-    };
-    replace key <AE12> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [ XF86AudioRaiseVolume, XF86AudioRaiseVolume,        XF86AudioNext, XF86AudioNext ]
-    };
-
-    replace key <BKSP> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [        XF86AudioPlay,        XF86AudioPlay,        XF86AudioMute, XF86AudioMute ]
-    };
-
-    replace key <AD01> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     q,                   Q,              section,       Page_Up ]
-    };
-    replace key <AD02> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     g,                   G,           underscore,     BackSpace ]
-    };
-    replace key <AD03> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     m,                   M,          bracketleft,            Up ]
-    };
-    replace key <AD04> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     l,                   L,         bracketright,        Delete ]
-    };
-    replace key <AD05> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     w,                   W,          asciicircum,     Page_Down ]
-    };
-    replace key <AD06> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     y,                   Y,               exclam,           Tab ]
-    };
-    replace key <AD07> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     f,                   F,                 less,             7 ]
-    };
-    replace key <AD08> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     u,                   U,              greater,             8 ]
-    };
-    replace key <AD09> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     b,                   B,                equal,             9 ]
-    };
-    replace key <AD10> {
-        type= "JEO_FOUR_LEVEL_PUNCTUATION",
-        symbols[Group1]= [  rightsinglequotemark, leftsinglequotemark,             sterling,         minus ]
-    };
-
-    replace key <AD11> { [        BackSpace ] };
-    replace key <AD12> { [           Escape ] };
-
-    replace key <CAPS> { [ ISO_Level3_Shift ] };
-
-    replace key <AC01> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     d,                   D,            backslash,          Home ]
-    };
-    replace key <AC02> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     s,                   S,                slash,          Left ]
-    };
-    replace key <AC03> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     t,                   T,            braceleft,          Down ]
-    };
-    replace key <AC04> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     n,                   N,           braceright,         Right ]
-    };
-    replace key <AC05> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     r,                   R,             asterisk,           End ]
-    };
-    replace key <AC06> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     i,                   I,             question,      asterisk ]
-    };
-    replace key <AC07> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     a,                   A,            parenleft,             4 ]
-    };
-    replace key <AC08> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     e,                   E,           parenright,             5 ]
-    };
-    replace key <AC09> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     o,                   O,                minus,             6 ]
-    };
-    replace key <AC10> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     h,                   H,                colon,         slash ]
-    };
-
-    replace key <AC11> { [ ISO_Level3_Shift ] };
-    replace key <BKSL> { [           Return ] };
-    replace key <LSGT> { [ ISO_Level5_Shift ] };
-
-    replace key <AB01> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     z,                   Z,           numbersign,           F11 ]
-    };
-    replace key <AB02> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     x,                   X,               dollar,           F12 ]
-    };
-    replace key <AB03> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     c,                   C,                  bar,           F13 ]
-    };
-    replace key <AB04> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     v,                   V,           asciitilde,           F14 ]
-    };
-    replace key <AB05> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     j,                   J,                grave,           F15 ]
-    };
-    replace key <AB06> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     k,                   K,                 plus,          plus ]
-    };
-    replace key <AB07> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                     p,                   P,              percent,             1 ]
-    };
-    replace key <AB08> {
-        type= "JEO_FOUR_LEVEL_PUNCTUATION",
-        symbols[Group1]= [                 comma,              endash,                   at,             2 ]
-    };
-    replace key <AB09> {
-        type= "JEO_FOUR_LEVEL_PUNCTUATION",
-        symbols[Group1]= [                period,            ellipsis,            ampersand,             3 ]
-    };
-    replace key <AB10> {
-        type= "JEO_FOUR_LEVEL_PUNCTUATION",
-        symbols[Group1]= [            apostrophe,            quotedbl,            semicolon,        period ]
-    };
-
-    replace key <LWIN> { [            Alt_L ] };
-    replace key <LALT> { [          Super_L ] };
-
-    replace key <SPCE> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [                 space,               space,                space,             0 ]
-    };
-
-    replace key <RALT> { [          Super_R ] };
-    replace key <RWIN> { [            Alt_R ] };
-    replace key <MENU> { [ ISO_Level5_Shift ] };
-
-    modifier_map    Lock { <TLDE> };
-    modifier_map    Mod1 { <LWIN>, <RWIN> };
-    modifier_map    Mod3 { <LSGT>, <MENU> };
-    modifier_map    Mod4 { <LALT>, <RALT> };
-    modifier_map    Mod5 { <CAPS>, <AC11> };
+partial modifier_keys
+xkb_symbols "level3_ac11_switch" {
+  key <AC11> { type[Group1] = "ONE_LEVEL", symbols[Group1] = [ ISO_Level3_Shift ] };
 };
 
-partial alphanumeric_keys
-xkb_symbols "ansi-desktop" {
-    include "jeo(iso-desktop)"
-
-    name[Group1]= "Jeo (ANSI)";
-
-    replace key <LWIN> { [ ISO_Level5_Shift ] };
-
-    modifier_map    Mod3 { <LWIN>         };
+partial modifier_keys
+xkb_symbols "level5_tlde_switch_lock" {
+  include "level5(lock)"
+  key <TLDE> {
+    type[Group1] = "EIGHT_LEVEL",
+    symbols[Group1] = [
+        ISO_Level5_Shift,  ISO_Level5_Shift,  ISO_Level5_Shift,  ISO_Level5_Shift,
+        ISO_Level5_Lock,   ISO_Level5_Lock,   ISO_Level5_Lock,   ISO_Level5_Lock
+    ]
+  };
 };
 
-partial alphanumeric_keys
-xkb_symbols "ansi-notebook" {
-    include "jeo(iso-desktop)"
-
-    name[Group1]= "Jeo (ANSI Notebook)";
-
-    replace key <LALT> { [ ISO_Level5_Shift ] };
-    replace key <LWIN> { [          Super_L ] };
-
-    replace key <RWIN> { [          Super_R ] };
-    replace key <RALT> { [            Alt_R ] };
-
-    modifier_map    Mod1 {         <RALT> };
-    modifier_map    Mod3 { <LALT>         };
-    modifier_map    Mod4 {         <RWIN> };
+partial modifier_keys
+xkb_symbols "level5_bksl_switch_lock" {
+  include "level5(lock)"
+  key <BKSL> {
+    type[Group1] = "EIGHT_LEVEL",
+    symbols[Group1] = [
+        ISO_Level5_Shift,  ISO_Level5_Shift,  ISO_Level5_Shift,  ISO_Level5_Shift,
+        ISO_Level5_Lock,   ISO_Level5_Lock,   ISO_Level5_Lock,   ISO_Level5_Lock
+    ]
+  };
 };
 
-partial alphanumeric_keys
-xkb_symbols "iso-notebook" {
-    include "jeo(iso-desktop)"
-
-    name[Group1]= "Jeo (Notebook)";
-
-    replace key <LALT> { [            Alt_L ] };
-    replace key <LWIN> { [          Super_L ] };
-
-    replace key <RWIN> { [          Super_R ] };
-    replace key <RALT> { [            Alt_R ] };
-
-    modifier_map    Mod1 { <LALT>, <RALT> };
-    modifier_map    Mod4 { <LWIN>, <RWIN> };
+partial modifier_keys
+xkb_symbols "level5_menu_switch_lock" {
+  include "level5(lock)"
+  key <MENU> {
+    type[Group1] = "EIGHT_LEVEL",
+    symbols[Group1] = [
+        ISO_Level5_Shift,  ISO_Level5_Shift,  ISO_Level5_Shift,  ISO_Level5_Shift,
+        ISO_Level5_Lock,   ISO_Level5_Lock,   ISO_Level5_Lock,   ISO_Level5_Lock
+    ]
+  };
 };
 
-partial alphanumeric_keys
-xkb_symbols "kinesis-advantage" {
-    include "jeo(iso-desktop)"
+partial modifier_keys
+xkb_symbols "level5_end_switch_lock" {
+  include "level5(lock)"
+  key <END> {
+    type[Group1] = "EIGHT_LEVEL",
+    symbols[Group1] = [
+        ISO_Level5_Shift,  ISO_Level5_Shift,  ISO_Level5_Shift,  ISO_Level5_Shift,
+        ISO_Level5_Lock,   ISO_Level5_Lock,   ISO_Level5_Lock,   ISO_Level5_Lock
+    ]
+  };
+};
 
-    name[Group1]= "Jeo (Kinesis Advantage)";
+partial modifier_keys
+xkb_symbols "level5_pgdn_switch_lock" {
+  include "level5(lock)"
+  key <PGDN> {
+    type[Group1] = "EIGHT_LEVEL",
+    symbols[Group1] = [
+        ISO_Level5_Shift,  ISO_Level5_Shift,  ISO_Level5_Shift,  ISO_Level5_Shift,
+        ISO_Level5_Lock,   ISO_Level5_Lock,   ISO_Level5_Lock,   ISO_Level5_Lock
+    ]
+  };
+};
 
-    replace key <AE12> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [        XF86AudioPlay,        XF86AudioPlay,        XF86AudioMute, XF86AudioMute ]
-    };
-    replace key <AE11> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [ XF86AudioRaiseVolume, XF86AudioLowerVolume,        XF86AudioNext, XF86AudioNext ]
-    };
-    replace key <BKSL> {
-        type= "JEO_FOUR_LEVEL_ALPHABETIC",
-        symbols[Group1]= [ XF86AudioLowerVolume, XF86AudioLowerVolume,        XF86AudioPrev, XF86AudioPrev ]
-    };
 
-    replace key <TLDE> { [        Caps_Lock ] };
-    replace key <LSGT> { [       voidsymbol ] };
-    replace key <LEFT> { [       voidsymbol ] };
-    replace key <RGHT> { [       voidsymbol ] };
+//
+// Common regular key mappings.
+//
+// Ordering is [lower, upper, symbol, symbol', nav, nav', unused, unused'],
+// where the prime denotes shift, and the unused layer is what you get if
+// you press symbol and nav at the same time.
+//
+// The difference with the ALPHABETIC key type is that it respects caps lock.
+//
 
-    replace key   <UP> { [       voidsymbol ] };
-    replace key <DOWN> { [       voidsymbol ] };
-    replace key <AD11> { [       voidsymbol ] };
-    replace key <AD12> { [       voidsymbol ] };
+partial alphanumeric_keys modifier_keys keypad_keys
+xkb_symbols "common" {
+    key.type[Group1] = "EIGHT_LEVEL_LEVEL_FIVE_LOCK";
+    key <AE01> { [                    1,                     1,              1,              1,             F1,             F1,             F1,             F1 ] };
+    key <AE02> { [                    2,                     2,              2,              2,             F2,             F2,             F2,             F2 ] };
+    key <AE03> { [                    3,                     3,              3,              3,             F3,             F3,             F3,             F3 ] };
+    key <AE04> { [                    4,                     4,              4,              4,             F4,             F4,             F4,             F4 ] };
+    key <AE05> { [                    5,                     5,              5,              5,             F5,             F5,             F5,             F5 ] };
+    key <AE06> { [                    6,                     6,              6,              6,             F6,             F6,             F6,             F6 ] };
+    key <AE07> { [                    7,                     7,              7,              7,             F7,             F7,             F7,             F7 ] };
+    key <AE08> { [                    8,                     8,              8,              8,             F8,             F8,             F8,             F8 ] };
+    key <AE09> { [                    9,                     9,              9,              9,             F9,             F9,             F9,             F9 ] };
+    key <AE10> { [                    0,                     0,              0,              0,            F10,            F10,            F10,            F10 ] };
 
-    replace key <BKSP> { [        BackSpace ] };
-    replace key <DELE> { [           Escape ] };
-    replace key <LALT> { [            Alt_L ] };
-    replace key <HOME> { [          Super_L ] };
-    replace key  <END> { [ ISO_Level5_Shift ] };
+    key.type[Group1] = "EIGHT_LEVEL_ALPHABETIC_LEVEL_FIVE_LOCK";
+    key <AD01> { [                    q,                     Q,        section,        section,        Page_Up,        Page_Up,        Page_Up,        Page_Up ] };
+    key <AD02> { [                    g,                     G,     underscore,     underscore,      BackSpace,      BackSpace,      BackSpace,      BackSpace ] };
+    key <AD03> { [                    m,                     M,    bracketleft,    bracketleft,             Up,             Up,             Up,             Up ] };
+    key <AD04> { [                    l,                     L,   bracketright,   bracketright,         Delete,         Delete,         Delete,         Delete ] };
+    key <AD05> { [                    w,                     W,    asciicircum,    asciicircum,      Page_Down,      Page_Down,      Page_Down,      Page_Down ] };
+    key <AD06> { [                    y,                     Y,         exclam,         exclam,            Tab,            Tab,            Tab,            Tab ] };
+    key <AD07> { [                    f,                     F,           less,           less,              7,              7,              7,              7 ] };
+    key <AD08> { [                    u,                     U,        greater,        greater,              8,              8,              8,              8 ] };
+    key <AD09> { [                    b,                     B,          equal,          equal,              9,              9,              9,              9 ] };
+    key.type[Group1] = "EIGHT_LEVEL_LEVEL_FIVE_LOCK";
+    key <AD10> { [ rightsinglequotemark,   leftsinglequotemark,       sterling,       sterling,          minus,          minus,          minus,          minus ] };
 
-    replace key <RALT> { [            Alt_R ] };
-    replace key <PGUP> { [          Super_R ] };
-    replace key <PGDN> { [ ISO_Level5_Shift ] };
+    key.type[Group1] = "EIGHT_LEVEL_ALPHABETIC_LEVEL_FIVE_LOCK";
+    key <AC01> { [                    d,                     D,      backslash,      backslash,           Home,           Home,           Home,           Home ] };
+    key <AC02> { [                    s,                     S,          slash,          slash,           Left,           Left,           Left,           Left ] };
+    key <AC03> { [                    t,                     T,      braceleft,      braceleft,           Down,           Down,           Down,           Down ] };
+    key <AC04> { [                    n,                     N,     braceright,     braceright,          Right,          Right,          Right,          Right ] };
+    key <AC05> { [                    r,                     R,       asterisk,       asterisk,            End,            End,            End,            End ] };
+    key <AC06> { [                    i,                     I,       question,       question,       asterisk,       asterisk,       asterisk,       asterisk ] };
+    key <AC07> { [                    a,                     A,      parenleft,      parenleft,              4,              4,              4,              4 ] };
+    key <AC08> { [                    e,                     E,     parenright,     parenright,              5,              5,              5,              5 ] };
+    key <AC09> { [                    o,                     O,          minus,          minus,              6,              6,              6,              6 ] };
+    key <AC10> { [                    h,                     H,          colon,          colon,          slash,          slash,          slash,          slash ] };
 
-    modifier_map    Lock { <LSGT>         };
-    modifier_map    Mod1 { <LALT>, <RALT> };
-    modifier_map    Mod3 {  <END>, <PGDN> };
-    modifier_map    Mod4 { <HOME>, <PGUP> };
+    key <AB01> { [                    z,                     Z,     numbersign,     numbersign,            F11,            F11,            F11,            F11 ] };
+    key <AB02> { [                    x,                     X,         dollar,         dollar,            F12,            F12,            F12,            F12 ] };
+    key <AB03> { [                    c,                     C,            bar,            bar,            F13,            F13,            F13,            F13 ] };
+    key <AB04> { [                    v,                     V,     asciitilde,     asciitilde,            F14,            F14,            F14,            F14 ] };
+    key <AB05> { [                    j,                     J,          grave,          grave,            F15,            F15,            F15,            F15 ] };
+    key <AB06> { [                    k,                     K,           plus,           plus,           plus,           plus,           plus,           plus ] };
+    key <AB07> { [                    p,                     P,        percent,        percent,              1,              1,              1,              1 ] };
+    key.type[Group1] = "EIGHT_LEVEL_LEVEL_FIVE_LOCK";
+    key <AB08> { [                comma,                endash,             at,             at,              2,              2,              2,              2 ] };
+    key <AB09> { [               period,              ellipsis,      ampersand,      ampersand,              3,              3,              3,              3 ] };
+    key <AB10> { [           apostrophe,              quotedbl,      semicolon,      semicolon,         period,         period,         period,         period ] };
+
+    key <SPCE> { [                space,                 space,          space,          space,              0,              0,              0,              0 ] };
+};
+
+
+//
+// Concrete layouts, with appropriate tweaks and modifiers.
+//
+
+// ANSI layout: for keyboards with the horizontal return key.
+
+partial alphanumeric_keys modifier_keys keypad_keys
+xkb_symbols "ansi" {
+    include "jeo(common)"
+    name[Group1] = "Jeo (ANSI)";
+
+    key.type[Group1] = "EIGHT_LEVEL_LEVEL_FIVE_LOCK";
+    key <AE11> { [ XF86AudioLowerVolume,  XF86AudioLowerVolume,  XF86AudioPrev,  XF86AudioPrev,  XF86AudioPrev,  XF86AudioPrev,  XF86AudioPrev,  XF86AudioPrev ] };
+    key <AE12> { [ XF86AudioRaiseVolume,  XF86AudioRaiseVolume,  XF86AudioNext,  XF86AudioNext,  XF86AudioNext,  XF86AudioNext,  XF86AudioNext,  XF86AudioNext ] };
+    key <BKSP> { [        XF86AudioPlay,         XF86AudioPlay,  XF86AudioMute,  XF86AudioMute,  XF86AudioMute,  XF86AudioMute,  XF86AudioMute,  XF86AudioMute ] };
+
+    key.type[Group1] = "ONE_LEVEL";
+    key <AD11> { [            BackSpace ] };
+    key <AD12> { [               Escape ] };
+    // <BKSL> used as level5 mod below
+
+    include "shift(both_capslock)"
+
+    include "level3(caps_switch)"
+    include "jeo(level3_ac11_switch)"
+
+    include "jeo(level5_tlde_switch_lock)"
+    include "jeo(level5_bksl_switch_lock)"
+    include "jeo(level5_menu_switch_lock)"
+};
+
+
+// ISO layout: for keyboards with the squashed L-shape return key.
+
+partial alphanumeric_keys modifier_keys keypad_keys
+xkb_symbols "iso" {
+    include "jeo(common)"
+    name[Group1] = "Jeo (ISO)";
+
+    key.type[Group1] = "EIGHT_LEVEL_LEVEL_FIVE_LOCK";
+    key <AE11> { [ XF86AudioLowerVolume,  XF86AudioLowerVolume,  XF86AudioPrev,  XF86AudioPrev,  XF86AudioPrev,  XF86AudioPrev,  XF86AudioPrev,  XF86AudioPrev ] };
+    key <AE12> { [ XF86AudioRaiseVolume,  XF86AudioRaiseVolume,  XF86AudioNext,  XF86AudioNext,  XF86AudioNext,  XF86AudioNext,  XF86AudioNext,  XF86AudioNext ] };
+    key <BKSP> { [        XF86AudioPlay,         XF86AudioPlay,  XF86AudioMute,  XF86AudioMute,  XF86AudioMute,  XF86AudioMute,  XF86AudioMute,  XF86AudioMute ] };
+
+    key.type[Group1] = "ONE_LEVEL";
+    key <AD11> { [            BackSpace ] };
+    key <AD12> { [               Escape ] };
+    key <BKSL> { [               Return ] };
+
+    include "shift(both_capslock)"
+
+    include "level3(caps_switch)"
+    include "jeo(level3_ac11_switch)"
+
+    include "level5(lsgt_switch_lock)"
+    include "jeo(level5_tlde_switch_lock)"
+    include "jeo(level5_menu_switch_lock)"
+};
+
+
+// Kinesis layout: for orthogonal split keyboards (in PC mode).
+
+partial alphanumeric_keys modifier_keys keypad_keys
+xkb_symbols "kinesis" {
+    include "jeo(common)"
+    name[Group1] = "Jeo (Kinesis)";
+
+    // Kinesis puts <AE12> under (not right of) <AE11>.
+    // <BKSP> is with left thumb, and <BKSL> is where <TLDE> normally is.
+    // Some keys are moved into an extra row beneath <ABxx>:
+    //   LHS:  <TLDE>, <LSGT>, <LEFT>, <RGHT>
+    //   RHS:    <UP>, <DOWN>, <AD11>, <AD12>
+
+    key.type[Group1] = "EIGHT_LEVEL_LEVEL_FIVE_LOCK";
+    key <AE11> { [ XF86AudioRaiseVolume,  XF86AudioRaiseVolume,  XF86AudioNext,  XF86AudioNext,  XF86AudioNext,  XF86AudioNext,  XF86AudioNext,  XF86AudioNext ] };
+    key <AE12> { [        XF86AudioPlay,         XF86AudioPlay,  XF86AudioMute,  XF86AudioMute,  XF86AudioMute,  XF86AudioMute,  XF86AudioMute,  XF86AudioMute ] };
+    // <BKSP> left with default function
+
+    key.type[Group1] = "ONE_LEVEL";
+    key <AD11> { [             NoSymbol ] };
+    key <AD12> { [             NoSymbol ] };
+    key.type[Group1] = "EIGHT_LEVEL_LEVEL_FIVE_LOCK";
+    key <BKSL> { [ XF86AudioLowerVolume,  XF86AudioLowerVolume,  XF86AudioPrev,  XF86AudioPrev,  XF86AudioPrev,  XF86AudioPrev,  XF86AudioPrev,  XF86AudioPrev ] };
+
+    key.type[Group1] = "ONE_LEVEL";
+    key <TLDE> { [             NoSymbol ] };
+    key <LSGT> { [             NoSymbol ] };
+    key <LEFT> { [             NoSymbol ] };
+    key <RGHT> { [             NoSymbol ] };
+    key   <UP> { [             NoSymbol ] };
+    key <DOWN> { [             NoSymbol ] };
+
+    key <DELE> { [               Escape ] };
+    key <HOME> { [              Super_L ] };
+    key <PGUP> { [              Super_R ] };
+
+    include "shift(both_capslock)"
+
+    include "level3(caps_switch)"
+    include "jeo(level3_ac11_switch)"
+
+    include "jeo(level5_end_switch_lock)"
+    include "jeo(level5_pgdn_switch_lock)"
 };
